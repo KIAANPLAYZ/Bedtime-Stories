@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bedtime Stories - Relax & Sleep</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f3eacb;
+            text-align: center;
+        }
+        header {
+            background: #6a4c93;
+            color: white;
+            padding: 15px;
+            font-size: 24px;
+        }
+        nav {
+            background: #8d5eb7;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 10px;
+            font-size: 18px;
+            padding: 10px;
+            display: inline-block;
+        }
+        nav a:hover {
+            background: #5a3b79;
+            border-radius: 5px;
+        }
+        .container {
+            width: 90%;
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+            background: white;
+            margin-top: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        iframe {
+            width: 100%;
+            max-width: 600px;
+            height: 315px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+        input, textarea {
+            width: 90%;
+            max-width: 600px;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        button {
+            background: #6a4c93;
+            color: white;
+            padding: 10px;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background: #5a3b79;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background: #5a3b79;
+            color: white;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        Bedtime Stories - Relax & Sleep
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#watch">Watch</a>
+        <a href="#stories">Stories</a>
+        <a href="#request">Request a Story</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div id="home" class="container">
+        <h2>Welcome to Bedtime Stories!</h2>
+        <p>Relax and enjoy peaceful bedtime stories to help you sleep and dream.</p>
+        <img src="https://source.unsplash.com/600x300/?night,story" alt="Bedtime Stories" style="width: 100%; max-width: 600px; border-radius: 10px;">
+        <p>✨ Explore our collection of bedtime stories, watch magical videos, or request a new story! ✨</p>
+        <a href="#watch" class="button">Watch Now</a>
+    </div>
+
+    <div id="watch" class="container">
+        <h3>📺 Watch Our Stories</h3>
+        <iframe src="https://www.youtube.com/embed/u8vsu9twEBI" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/q3xuK6lwjks" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/63LtLMxa1uM" allowfullscreen></iframe>
+    </div>
+
+    <div id="request" class="container">
+        <h3>📜 Request a Story</h3>
+        <p>Have a bedtime story idea? Fill out the form below!</p>
+        <form action="mailto:kiaanssayed@gmail.com" method="post" enctype="text/plain">
+            <input type="text" name="Name" placeholder="Your Name" required><br>
+            <input type="email" name="Email" placeholder="Your Email" required><br>
+            <textarea name="StoryIdea" placeholder="Describe your story idea..." required></textarea><br>
+            <button type="submit">Submit Request</button>
+        </form>
+    </div>
+
+    <div id="contact" class="container">
+        <h3>📧 Contact Us</h3>
+        <p>Email: <a href="mailto:kiaanssayed@gmail.com">kiaanssayed@gmail.com</a></p>
+    </div>
+
+    <footer>
+        © 2025 Bedtime Stories | Relax & Sleep Well
+    </footer>
+
+</body>
+</html>
